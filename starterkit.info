@@ -4,7 +4,7 @@
 ; description	= Sort description for your theme
 ; version       = Version of your theme. For your reference. Not used by OS
 ; core*		= Indicate what major version of OS is your theme compatible with
-; base them	= the name of the theme this theme inherits from
+; base theme*	= the name of the theme this theme inherits from
 ; stylesheets	= Names of the css files in your theme
 ; styles	= Names of the js files in your theme
 ; screenshot	= The path to your theme's thumbnail image
