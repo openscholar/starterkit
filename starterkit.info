@@ -1,0 +1,39 @@
+
+name        = OS STARTERKIT
+description = An example of OS custom theme
+core        = 7.x
+base theme  = os_basetheme
+release     = 7.x-3.x
+screenshot  = screenshot.png
+
+; OpenScholar
+
+os[theme_type]   = 'vsite'
+os[theme_access] = 'public'
+
+; Stylesheets
+
+stylesheets[all][] = css/main.css
+stylesheets[screen][] = css/starterkit.responsive.layout.css
+stylesheets[screen][] = css/starterkit.css
+
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
