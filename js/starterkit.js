@@ -1,1 +1,1 @@
-// some js goes here
+// JS SPECIFIC TO THIS CUSTOM THEME GOES HERE

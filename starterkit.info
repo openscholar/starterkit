@@ -1,36 +1,30 @@
-; The following keys are allowed.  '*' means 'required'.
-; 
-; name*		= Short name for your theme
-; description	= Sort description for your theme
-; version       = Version of your theme. For your reference. Not used by OS
-; core*		= Indicate what major version of OS is your theme compatible with
-; base theme*	= the name of the theme this theme inherits from
-; stylesheets	= Names of the css files in your theme
-; styles	= Names of the js files in your theme
-; screenshot	= The path to your theme's thumbnail image
+; Any line below preceeded by ; (semi-colon) is OPTIONAL. All other lines are required and should be reviewed for accuracy before uploading.
+
+;----------// Theme Information
+
+  name        = Starterkit 
+  description = A brief description about the theme.
+  core        = 7.x
+  base theme  = os_basetheme
+  release     = 7.x-3.x
+  engine      = phptemplate
+  screenshot  = screenshot.png
+
+;----------// OpenScholar
+
+	os[theme_type]   = 'vsite'
+    os[theme_access] = 'public'
+
+;----------// Stylesheets
+
   
+  stylesheets[screen][] = css/starterkit.css
+; stylesheets[screen][] = css/starterkit.layout.css
+  
+: ie_stylesheets[screen][lt IE 9][] = css/starterkit-ie.css
 
-name        = OS STARTERKIT
-description = An example of OS custom theme
-core        = 7.x
-base theme  = os_basetheme
-version     = 7.x-3.x
-screenshot  = screenshot.png
-
-; OpenScholar
-
-; os[theme_type]   = 'vsite'
-; os[theme_access] = 'public'
-
-; Stylesheets
-
-stylesheets[all][] = css/main.css
-stylesheets[screen][] = css/starterkit.responsive.layout.css
-stylesheets[screen][] = css/starterkit.css
-stylesheets[print][] = css/starterkitprint.css
-
-; Scripts
-scripts[] = starterkit.js
+  
+; scripts[] = starterkit.js
 
 
 
