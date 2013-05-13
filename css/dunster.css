@@ -10,7 +10,7 @@ body {
 	}
 
 /* TYPOGRAPHY*/
-.biblio-title a, .biblio-title-chicago a,
+.biblio-title a, .biblio-title-chicago,
 a, a:visited {
 	color:#446677;
 	text-decoration: none;
