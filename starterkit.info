@@ -7,13 +7,12 @@
   core        = 7.x
   base theme  = os_basetheme
   release     = 7.x-3.x
-  engine      = phptemplate
   screenshot  = screenshot.png
 
 ;----------// OpenScholar
 
-	os[theme_type]   = 'vsite'
-    os[theme_access] = 'public'
+  os[theme_type]   = 'vsite'
+  os[theme_access] = 'public'
 
 ;----------// Stylesheets
 
