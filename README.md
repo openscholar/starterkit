@@ -7,7 +7,9 @@ While having Drupal theming experience is not necessary to create a custom theme
 
 * Once all instances of starterkit have been replaced with the name of the custom theme, start by opening the .flav file. This file is critical in order for the custom theme to work. 
 
-* As noted in the .flav file, all lines with a ; (semicolon) are optional.  First, you will need to select an existing OpenScholar theme to base your subtheme on.  This theme will be your starting point and all the changes you make will modify that.  To select a parent theme, change the `module` line in your .flav file.  The system names of OpenScholar's themes are aberdeen, aglet, airstream, ballard, bartik, bigpic, bunchy, cayley, cleanblue, collector, collegiate, commodore, department, documental, dunster, eloquent, garland, hwpi_classic, hwpi_modern, hwpi_vibrant, nortony, redhead, seven, stark, stripy, and weft.
+* As noted in the .flav file, all lines beginning with a semicolon are commented out and will not be read by the system.  To use one of these directives, you'll have to uncomment it be removing the leading semicolon.  
+
+*First, you will need to select an existing OpenScholar theme to base your subtheme on.  This theme will be your starting point and all the changes you make will modify that.  To select a parent theme, change the `module` line in your .flav file.  The system names of OpenScholar's themes are aberdeen, aglet, airstream, ballard, bartik, bigpic, bunchy, cayley, cleanblue, collector, collegiate, commodore, department, documental, dunster, eloquent, garland, hwpi_classic, hwpi_modern, hwpi_vibrant, nortony, redhead, seven, stark, stripy, and weft.
 
 * Once all of the references in the .flav file have been updated and/or uncommented/activated, adding css rules and attributes to the css file can begin. 
 
