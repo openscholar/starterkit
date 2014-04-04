@@ -14,7 +14,7 @@
   
 : ie_stylesheets[screen][lt IE 9][] = css/starterkit-ie.css
 
-; scripts[] = starterkit.js
+; scripts[] = js/starterkit.js
 
 
 
