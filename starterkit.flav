@@ -1,36 +1,20 @@
-; Any line below preceeded by ; (semi-colon) is OPTIONAL. All other lines are required and should be reviewed for accuracy before uploading.
+; Any line below preceeded by semicolon is a comment.  Some optional
+; directives are commented out, but you're welcome to use them by
+; removing the comment.  The directives that are not commented out by
+; default are required for your theme to work correctly.
 
 ;----------// Theme Information
 
   name        = Starterkit 
   description = A brief description about the theme.
-  base theme  = os_basetheme
+  module      = cleanblue
   screenshot  = screenshot.png
 
 ;----------// Stylesheets
 
   css[] = css/starterkit.css
 ; css[] = css/starterkit.layout.css
-  
 : ie_stylesheets[screen][lt IE 9][] = css/starterkit-ie.css
 
 ; scripts[] = js/starterkit.js
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
 
