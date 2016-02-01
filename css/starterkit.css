@@ -4,8 +4,7 @@
 body {
 	font: arial,helvetica,sans-serif;
 	color:#444;
-	/*background: url('../images/columnsBg.png') #f1f1f1;*/
-	background-color: #FF0000;
+	background: url('../images/columnsBg.png') #f1f1f1;
 	}
 
 /* TYPOGRAPHY*/
