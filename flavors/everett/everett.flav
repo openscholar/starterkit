@@ -1,6 +1,0 @@
-name = Everett
-description = A monochrome version of the Classic theme
-screenshot = screenshot.png
-
-css[] = everett.css
-css[] = responsive.everett.css

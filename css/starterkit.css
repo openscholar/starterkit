@@ -1,0 +1,33 @@
+/* To utilize a google font, place the font url's here at the top of this css file as seen here*/
+@import url('http://fonts.googleapis.com/css?family=Arvo');
+
+body {
+	font: arial,helvetica,sans-serif;
+	color:#444;
+	background: url('../images/columnsBg.png') #f1f1f1;
+	}
+
+/* TYPOGRAPHY*/
+a, a:visited {
+	color:#446677;
+	text-decoration: none;
+	}
+
+a:hover {
+	text-decoration: underline;
+	color: #222;
+	}
+
+h1, h2, h3, h4 {
+	font-weight:normal;
+	font-family:'Arvo', arial, serif;
+	margin-bottom:15px;
+	}
+	
+
+/* IF THE SEPARATE IE CSS FILE IS NOT USED, PREFIX CLASSES CAN BE USED THROUGHOUT THIS FILE.
+ THIS EXAMPLE IS AN IE8 OVERRIDE FOR MARGIN-BOTTOM OF AN H2 - .lt-ie8 WOULD TARGET IE7 */
+.lt-ie9 h2 {
+	margin-bottom:10px;
+	}
+	

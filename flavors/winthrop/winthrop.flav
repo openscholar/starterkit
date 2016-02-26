@@ -1,6 +1,0 @@
-name = Winthrop
-description = A monochrome version of the Classic theme
-screenshot = screenshot.png
-
-css[] = winthrop.css
-css[] = responsive.winthrop.css
