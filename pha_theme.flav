@@ -10,3 +10,9 @@
   module      = hwpi_onepage
   screenshot  = screenshot.png
 
+;----------// Stylesheets
+
+css[] = css/pha_theme.css
+
+
+scripts[] = js/pha_theme.js
