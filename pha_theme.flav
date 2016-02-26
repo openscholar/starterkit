@@ -1,0 +1,20 @@
+; Any line below preceeded by semicolon is a comment.  Some optional
+; directives are commented out, but you're welcome to use them by
+; removing the comment.  The directives that are not commented out by
+; default are required for your theme to work correctly.
+
+;----------// Theme Information
+
+  name        = PHA Theme 
+  description = A brief description about the theme.
+  module      = cleanblue
+  screenshot  = screenshot.png
+
+;----------// Stylesheets
+
+  css[] = css/pha_theme.css
+; css[] = css/pha_theme.layout.css
+: ie_stylesheets[screen][lt IE 9][] = css/pha_theme-ie.css
+
+; scripts[] = pha_theme.js
+
