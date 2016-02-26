@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300);
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans);
+html,
+body,
+.field-item span {
+    color: #000;
+}
+body,
+#page-title,
+.node-title,
+.page-search .title a,
+#content-column .block.block-boxes-os_boxes_manual_list .links.inline a,
+.more-link,
+.links a,
+.boxes-box-content h2,
+.section-nav a,
+#content-column h2,
+#content-column h3,
+#content-column h4,
+#tinymce h2,
+#tinymce h3,
+#tinymce h4,
+.block-boxes-os_taxonomy_fbt.navigation,
+#footer ul.menu li ul li a,
+#layout_16_9_side .slide-copy h2,
+#layout_3_1_overlay .slide-copy h2,
+#layout_16_9_below .slide-copy h2,
+#layout_16_9_overlay .slide-copy h2,
+h2.block-title,
+.region-header-third ul.nice-menu a,
+#menu-bar ul.nice-menu a,
+#boxes-box-site_info,
+#boxes-box-site_info a,
+#layout_16_9_overlay .slide-copy p,
+#layout_16_9_overlay .slide-copy h2,
+#layout_16_9_side .slide-copy p,
+#layout_16_9_side .slide-copy h2,
+.slide-copy p,
+.block-boxes-os_sv_list_box .os_sv_list_box.sv-list-link.sv-list-view-links h1 a  {
+    font-family: 'Merriweather', Georgia, serif !important;
+}
+#footer ul.menu a,
+#footer a,
+.region-header-third ul.nice-menu a {
+    font-family: 'Merriweather Sans', sans-serif !important;
+}
+.front #content-panels .region-content-first {
+    background: #FFF;
+}
+.front #content-panels .region-content-second span,
+.front #content-panels .region-content-second {
+    background-color: #293352;
+}
+#footer a,
+#footer,
+#footer .footer-login,
+.front #content-panels .region-content-second a,
+.front #content-panels .region-content-second span,
+.front #content-panels .region-content-second {
+    color: #FFF;
+}
+.front #content-panels .region-content-bottom {
+    background-color: #C3D7A4;
+}
+#footer {
+    background-color: #4E84C4;
+}
+#header,
+#menu-bar {
+    background: #f3f3f1;
+}
+#menu-bar ul.nice-menu .menuparent ul li a,
+#menu-bar ul.nice-menu .menuparent ul li a.active,
+#menu-bar ul.nice-menu a.active,
+#menu-bar ul.nice-menu a:hover,
+#menu-bar ul.nice-menu a {
+    color: #a51c30;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+.front .block-boxes-os_boxes_html,
+#menu-bar ul.nice-menu .menuparent ul li a,
+#menu-bar ul.nice-menu .menuparent ul li a.active {
+    font-size: 1em;
+}
+#menu-bar ul.nice-menu a.active,
+#menu-bar ul.nice-menu a:hover,
+#menu-bar ul.nice-menu .menuparent.over > a,
+#menu-bar ul.nice-menu .menuparent a:hover,
+#menu-bar ul.nice-menu .menuparent a.active {
+    background-color: #FFF;
+    border-top: 4px solid #a51c30;
+    color: #a51c30;
+    padding: 12px 15px 16px 15px;
+}
+#menu-bar ul.nice-menu .menuparent ul li a:hover,
+#menu-bar ul.nice-menu ul .menuparent.over > a,
+#menu-bar ul.nice-menu ul .menuparent a:hover,
+#menu-bar ul.nice-menu ul .menuparent a.active {
+    color: #a51c30;
+    padding: 10px 15px;
+}
+#menu-bar ul.nice-menu ul {
+    background: #fff;
+    border-left: 1px solid #f3f3f1;
+    border-right: 1px solid #f3f3f1;
+    border-bottom: 1px solid #f3f3f1;
+}
+#menu-bar ul.nice-menu .menuparent.over > a:before,
+#menu-bar ul.nice-menu .menuparent a:hover:before,
+#menu-bar ul.nice-menu .menuparent a.active:before,
+#menu-bar ul.nice-menu .menuparent a:before {
+    background-position: -57px -566px;
+}
+ul.nice-menu ul {
+    top: 3.5em !important;
+}
+.front .block-boxes-os_boxes_html {
+    line-height: 1.4em;
+}
+.field-name-body h2,
+h1#page-title,
+.sidebar h2.block-title {
+    font-weight: normal;
+}
+.field-name-body h2 {
+    margin-bottom: 8px;
+}
+
+.section-nav .menu-depth-1 > a {
+    background-color: #F3f3f1 !important;
+    color: #a51c30 !important;
+    border-bottom: 1px solid #d7d7d7 !important;
+}
+.section-nav ul.menu li.first.last.expanded.menu-depth-1 {
+    border-top: 2px solid #a51c30;
+}
+#layout_3_1_overlay .slide-copy h2 {
+    font-size: 2em;
+    line-height: 36px;
+}
+#footer .footer-login {
+    text-shadow: none;
+}
+#footer .footer-login:after {
+    background-image: none;
+}
+.block-os-search-solr {
+font-size: .97em;
+}
+
+.cal-export {
+    background-position: 62px -902px;
+}
+.attachment.attachment-before ul li {
+    font-size: 14px;
+}
