@@ -1,0 +1,104 @@
+
+@media (max-width: 1008px) {
+
+.block-boxes-os_slideshow_box {
+    z-index: 0!important;
+    background: #444 !important;
+}
+
+#layout_16_9_overlay .rslides_tabs,
+#layout_16_9_below .rslides_tabs,
+#layout_16_9_side .rslides_tabs,
+#layout_3_1_overlay .rslides_tabs {
+    padding: 5px 0 10px 12px !important;
+    left: 0 !important;
+    position: static !important;
+    top: 0 !important;
+    background: #444 !important;
+ }
+
+#layout_16_9_overlay .slide-copy,
+#layout_16_9_side .slide-copy,
+#layout_16_9_below .slide-copy,
+#layout_3_1_overlay .slide-copy {
+ height:auto !important;
+ min-height:100px !important;
+ position: static !important;
+  background: #444 !important;
+  width:auto !important;
+  float:none !important;
+  clear:both !important;
+  margin:0 !important;
+  padding-top:10px !important;
+ }
+ 
+#layout_16_9_overlay .slide-copy h2,
+#layout_16_9_side .slide-copy h2,
+#layout_16_9_below .slide-copy h2,
+#layout_3_1_overlay .slide-copy h2 {
+ margin-bottom:10px !important;
+ font-size: 18px !important;
+ line-height:22px !important;
+ }
+
+#layout_16_9_overlay .slide-copy p,
+#layout_16_9_overlay .slide-copy h2 {
+    padding-left:15px !important;
+}
+
+#layout_16_9_overlay .slide-copy p,
+#layout_16_9_side .slide-copy p,
+#layout_16_9_below .slide-copy p,
+#layout_3_1_overlay .slide-copy p 
+{
+ margin-bottom:15px !important;
+ font-size:13px !important;
+line-height:21px !important;
+ 
+}
+
+#layout_3_1_overlay .slide img,
+#layout_16_9_side .slide img {
+    position: static !important;
+    width: 100% !important;
+
+}
+
+.rslides_tabs li { 
+z-index:5 !important;
+position:relative !important;	
+}
+
+}
+
+@media (max-width: 479px){
+	
+.region-content-top .block-boxes-os_slideshow_box .slide {
+height: auto !important;
+}
+
+.rslides_tabs li { 
+display:none !important;	
+}
+
+.rslides_tabs li:first-child,
+.rslides_tabs li:last-child { 
+display:block !important;
+margin-right:8px !important;	
+}
+
+.rslides_tabs a {
+    margin: 0 !important;
+}
+
+a.rslides_nav.next {
+background-position: -53px -24px !important;
+}
+
+a.rslides_nav.prev {
+background-position: -21px -24px !important;
+}
+	
+}
+
+

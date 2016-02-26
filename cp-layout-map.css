@@ -1,0 +1,68 @@
+.os_front .cp-region-content-first,
+.os_front .cp-region-content-second,
+.os_front .cp-region-content-bottom {
+    width: 32%;
+    min-height: 25em;
+}
+.os_front .cp-region-content-bottom {
+    margin-top: 0;
+    margin-left: 2%;
+}
+.os_front .cp-region-content-top {
+    min-height: 10em;
+}
+.os_front .cp-region-sidebar-first[style],
+.os_front .cp-region-sidebar-second[style] {
+    display: none;
+    height: 1px !important;
+    width: 1px !important;
+    min-height: 1px !important;
+    min-width: 1px !important;
+}
+.os_front .form-actions,
+.os_front .cp-region-footer-bottom,
+.os_front .cp-region-footer-first,
+.os_front .cp-region-footer-third,
+.os_front .cp-region-footer {
+    position: absolute;
+}
+.os_front .cp-region-footer-first,
+.os_front .cp-region-footer-third,
+.os_front .cp-region-footer {
+    bottom: -155px;
+}
+.os_front .cp-region-footer {
+    right: 212px;
+}
+.os_front .cp-region-footer-third {
+    right: 0;
+}
+.os_front .cp-region-footer-bottom,
+.os_front .cp-region-footer-first {
+    left: 0;
+}
+.os_front .cp-region-footer-bottom {
+    bottom: -205px;
+}
+.os_front .form-actions {
+    bottom: -270px;
+}
+.os_front .cp-region-content-first,
+.os_front .cp-region-content-second,
+.os_front .cp-region-content-bottom,
+.os_front .cp-region-content {
+    width: 100%;
+}
+.os_front .cp-region-content-first,
+.os_front .cp-region-content-second,
+.os_front .cp-region-content-bottom {
+    min-height: 10em;
+    margin-bottom: 1%;
+}
+.os_front .cp-region-content-bottom {
+    margin-bottom: 0;
+}
+.os_front .cp-region-content-bottom,
+.os_front .cp-region-content-second {
+    margin-left: 0;
+}
