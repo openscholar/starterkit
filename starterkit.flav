@@ -5,9 +5,9 @@
 
 ;----------// Theme Information
 
-  name        = Starterkit 
+  name        = PHA Theme 
   description = A brief description about the theme.
-  module      = cleanblue
+  module      = hwpi_basetheme
   screenshot  = screenshot.png
 
 ;----------// Stylesheets
