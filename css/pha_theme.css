@@ -1,4 +1,8 @@
--#menu-bar {
- -    background: #00BFFF;
- -    padding: 0;
- }
+#menu-bar {
+    background: #00BFFF;
+    padding: 0;
+}
+
+#powerby-login {
+    display: none;
+}
