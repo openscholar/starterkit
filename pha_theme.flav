@@ -1,0 +1,18 @@
+; Any line below preceeded by semicolon is a comment.  Some optional
+; directives are commented out, but you're welcome to use them by
+; removing the comment.  The directives that are not commented out by
+; default are required for your theme to work correctly.
+
+;----------// Theme Information
+
+  name        = Custom PHA Theme 
+  description = A brief description about the theme.
+  module      = hwpi_onepage
+  screenshot  = screenshot.png
+
+;----------// Stylesheets
+
+css[] = css/pha_theme.css
+
+
+scripts[] = js/pha_theme.js
